@@ -1,30 +1,32 @@
-﻿# ejercicioCabina
-Este proyecto es una simulación básica de una cabina telefónica utilizando programación orientada a objetos. El objetivo es crear un modelo que permita realizar llamadas, calcular su costo y mostrar la información relacionada con las mismas.
+Telephone booth
+This project is a basic simulation of a telephone booth using object-oriented programming. The objective is to create a model that allows to make calls, calculate their cost and display the information related to them.
 
-Características
-Llamada: Clase principal que representa una llamada telefónica. Contiene propiedades como el tipo de llamada, número de destino, duración y costo de la llamada.
-Tipos de Llamada: Permite diferenciar entre llamadas locales, nacionales e internacionales.
-Cálculo del Costo: El costo de la llamada se calcula en función del tipo de llamada y la duración.
+Characteristics
+Call: Main class that represents a phone call. It contains properties such as the type of call, destination number, duration and cost of the call.
+Call Types: Allows to differentiate between local, national and international calls.
+Cost Calculation: The cost of the call is calculated based on the type of call and duration.
 
-Estructura del Proyecto
-El proyecto está organizado de la siguiente manera:
+Project Structure
+The project is organized as follows:
 
-src/: Contiene el código fuente del proyecto.
-Llamada.kt: Clase que define la estructura de una llamada y los métodos para calcular su costo.
-Cabina.kt: Clase que simula la cabina telefónica, permitiendo realizar y registrar llamadas.
-TipoLlamada: Clase que establece los tipos de llamada y su tarifa
-GestionLlamadas: Clase en cargada de registrar la informacion de todas las cabinas
+src/: Contains the source code of the project.
+Call.kt: Class that defines the structure of a call and the methods to calculate its cost.
+Cabina.kt: Class that simulates the phone booth, allowing to make and register calls.
+TipoLlamada: Class that establishes the types of calls and their rates.
+GestionLlamadas: Class in charge of registering the information of all the booths.
 
-README.md: Archivo de documentación del proyecto.
+README.md: Project documentation file.
 
-Requisitos Previos
-Kotlin: Tener Kotlin instalado en el sistema.
+Prerequisites
+Kotlin: Kotlin installed in the system.
 
-Instrucciones de Uso
-Clonar el repositorio:
+Usage Instructions
+Clone the repository:
 
-Copiar código
+Copy code
 git clone [https://github.com/tu_usuario/cabina-telefonica.git](https://github.com/carolina-Developer/ejercicioCabina.git)
 
-Licencia
-Ninguna
+License
+None
+
+Translated with DeepL.com (free version)
